@@ -50,7 +50,7 @@
 
                     if (parentKey && isArray(jsonObject)) {
 
-                        propName = parentKey + '[' + index + ']';
+                        propName = parentKey + '[]';
                     }
 
                     if (jsonObject[key] instanceof File) {
